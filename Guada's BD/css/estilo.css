@@ -1,0 +1,228 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: romanticaPoema;
+    src: url(../fonts/Cursive\ standard.ttf),
+        url(../fonts/Cursive\ standard\ Bold.ttf);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(231, 231, 231);
+    font-family: cursive;
+    width: max-content;
+}
+
+header img {
+    height: 15vh;
+    padding-right: 40px;
+}
+
+header h1 {
+    margin-top: 10vh;
+}
+
+#banner {
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flexbox;
+    flex-direction: row;
+    background-color: rgb(250, 250, 250);
+    font-family: cursive;
+    color: grey;
+    padding: 2vh;
+    width: 85%;
+}
+
+aside {
+    width: 15%;
+    background-color: lightgoldenrodyellow;
+    padding: 2vh;
+    font-family: romanticaPoema;
+    color: rgb(147, 216, 9);
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+#baby {
+    display: flex;
+    flex-direction: column;
+}
+
+#baby figure {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#baby img {
+    border-style: dashed;
+    border-color: violet;
+    border-width: 0.3vh;
+    height: 24vh;
+}
+
+figcaption{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+#mother {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+#mother table {
+    margin-top: 1rem;
+    color: rgb(121, 160, 224);
+
+}
+
+#miboton{
+    background-color: rgb(115, 222, 220);
+
+}
+
+#miboton a{
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+#mariquita{
+    display: flex;
+    width: 20vh;
+    justify-content: center;
+}
+
+#fondito {
+    height: 100vh;
+}
+
+#fondito p {
+    margin: 2vh;
+    padding-bottom: 0.4vh;
+}
+
+#fondito #mi {
+    padding-bottom: 3vh;
+}
+
+@media screen and (min-width: 30px) {
+
+    #banner {
+        display: flex;
+    }
+
+    header figure {
+        margin-top: 4vh;
+    }
+
+    header img {
+        height: 15vh;
+    }
+
+    header h1 {
+        margin-top: 5vh;
+        padding-right: 4vh;
+    }
+
+    .miDeco {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(247, 83, 211, 0.558);
+        height: 4vh;
+    }
+
+    main {
+        width: 100%;
+        padding: 0vh;
+    }
+
+    aside {
+        width: 100%;
+        font-size: 15px;
+        font-size: 2.7vh;
+    }
+
+    main #mother label a{
+        color: honeydew;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 60vh;
+    }
+
+    main #mother #botones{
+        padding: 1vh;
+        width: 48vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #botones section{
+        padding: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    #baby {
+        padding: 0vh;
+    }
+
+    article {
+        display: block;
+    }
+
+    #cuerpito {
+        display: block;
+        padding: 0;
+    }
+
+    #cuerpito article p {
+        margin-left: 3vh;
+    }
+
+    #galeria {
+        display: block;
+    }
+
+    #galeria figure {
+        padding: 0%;
+    }
+
+    #galeria img {
+        height: 30vh;
+    }
+
+    #mother {
+        margin-left: 0;
+    }
+
+    footer p {
+        width: 50vh;
+        height: 3.8vh;
+        font-size: 13px;
+    }
+}
